@@ -251,6 +251,7 @@ footer{
 .icons svg{
     background-color: #ffffff;
     border-radius: 50%;
+    padding: 5px;
 
 }
 .footer-list{
