@@ -103,7 +103,7 @@ body{
 .hero-section2 h2{
     color: #000000;
     font-size: 1.8rem;
-    font-weight: 500;
+    
 }
 
 .dashboard{
@@ -125,3 +125,149 @@ body{
 .hero-section2 img{
     height: 300px;
 }
+
+.hero-section3{
+    align-items: center;
+    
+    background-color: #ffffff;
+    margin-top: 1rem;
+}
+.hero-section3 h2{
+    text-align: center;
+    color:#000000;
+    font-size: 1.8rem;
+}
+
+.description{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 4rem;
+    text-align: left;
+    margin-top: 2rem;
+}
+.description p{
+    margin: 4rem;
+    font-size: 1rem;
+    color: #24241c;
+    width: 50vh;
+}
+.description img{
+    height: 350px;
+    margin-top: 1rem;
+    margin-right: 3rem;
+}
+
+.btn2{
+    margin-left: 4rem;
+    font-weight: 700;
+    padding: 8px 15px;
+    border: 2px solid rgb(201, 201, 201);
+    font-size: 1.2rem;
+    color: whitesmoke;
+    background-color: rgba(0, 128, 0,0.5);
+    cursor: pointer;
+    margin-bottom: 3rem;
+}
+
+.hero-top{
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    margin: 4rem;
+
+}
+
+.hero-top h2{
+    text-align: left;
+    font-size: 2.5rem;
+    color: #000000;
+}
+
+.hero-top p{
+    color: #24241c;
+    font-size: 1rem;
+}
+.img-list{
+    display: flex;
+    justify-content: space-between;
+   
+    margin: 3rem;
+}
+.image{
+    display: flex;
+    justify-content: space-around;
+    gap: 7rem;
+    list-style: none;
+    margin: 3rem;
+}
+ .image img{
+    height: 350px;
+    width: 290px;
+ }
+ .image h3{
+    font-size: 1.3rem;
+    color: #000000;
+ }
+ .image p{
+    font-size: 10px;
+    color: #24241c;
+    margin-top: 5px;
+ }
+
+ .btn3{
+    display:flex ;
+    justify-self: center;
+    margin-left: 4rem;
+    font-weight: 700;
+    padding: 8px 15px;
+    border: none ;
+    font-size: 1.2rem;
+    color: whitesmoke;
+    background-color: rgba(0, 128, 0,0.5);
+    cursor: pointer;
+    margin-bottom: 3rem;
+}
+
+footer{
+    margin-top: 2rem;
+    background-color: #24241c;
+       
+}
+
+.footer-nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+    
+}
+
+.icons{
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    height: 2rem;
+}
+.icons svg{
+    background-color: #ffffff;
+    border-radius: 50%;
+
+}
+.footer-list{
+    list-style: none;
+}
+.menu{
+    justify-content: space-around;
+    display: flex;
+    gap: 4rem;
+    color: #6a6969;
+    list-style: none;
+    font-size: 0.7rem;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+.list-item{
+    color: #ffffff;
+    font-size: 1.1rem;
+}
+
